@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-client-table',
   imports: [],
   templateUrl: './client-table.component.html',
-  styleUrl: './client-table.component.css'
+  styleUrl: './client-table.component.css',
+  standalone: true
 })
 export class ClientTableComponent {
 

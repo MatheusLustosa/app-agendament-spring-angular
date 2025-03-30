@@ -16,7 +16,8 @@ import { MatButtonModule } from '@angular/material/button';
     NgxMaskDirective
   ],
   templateUrl: './client-form.component.html',
-  styleUrl: './client-form.component.scss'
+  styleUrl: './client-form.component.scss',
+  standalone: true
 })
 export class ClientFormComponent {
 
